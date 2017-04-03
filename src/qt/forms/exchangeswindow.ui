@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Exchangeswindow</class>
+ <widget class="QWidget" name="Exchangeswindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+  <item>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+      <widget class="QPushButton" name="Yobit">
+       <property name="text">
+        <string>Yobit</string>
+       </property>
+      </widget>
+     </item>
+	 <item>
+      <widget class="QPushButton" name="Livecoin">
+       <property name="text">
+        <string>Livecoin</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Cryptopia">
+       <property name="text">
+        <string>Cryptopia</string>
+       </property>
+      </widget>
+     </item>
+	  <item>
+      <widget class="QPushButton" name="Bittrex">
+       <property name="text">
+        <string>Bittrex</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWebView" name="webView">
+     <property name="url">
+      <url>
+       <string>https://yobit.net/</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

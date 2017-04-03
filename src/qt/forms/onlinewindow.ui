@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OnlineWindowClass</class>
+ <widget class="QWidget" name="OnlineWindowClass">
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>860</width>
+     <height>497</height>
+    </rect>
+   </property>
+     <widget class="QWidget" name="hide3" native="true">
+     <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>80</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;a href=&quot;https://cryptojournal.news/feed&quot;&gt;&lt;div style=&quot; text-decoration: none; color:#272727;&quot;&gt;&lt;img src=&quot;:/icons/twitter&quot;/&gt;&lt;br /&gt;Twitter&lt;/div&gt;&lt;/a&gt;</string>
+     </property>
+	 <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>   
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
